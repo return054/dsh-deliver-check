@@ -1,0 +1,5 @@
+# bundle 层：被 dsh plugin add 安装时激活
+# name 必须写包名（Node 模块解析），不是源码路径
+- insert:
+    - id: deliver-check
+      name: dsh-deliver-check
