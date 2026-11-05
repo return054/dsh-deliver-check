@@ -1,13 +1,14 @@
 {
   "name": "dsh-deliver-check",
   "version": "0.1.0",
-  "description": "TODO: 一句话说明本插件用途（收录审查要求描述与代码一致）",
+  "description": "Deterministic deliver pre-flight gate for AI code changes; scans debug leftovers, TODO markers, not-implemented throws, credentials, placeholders; exit-code verdict",
   "type": "module",
   "main": "index.js",
   "files": [
     "index.js",
     "cordis.patch.yml",
-    "README.md"
+    "README.md",
+    "scripts"
   ],
   "keywords": [
     "dsh-plugin",
